@@ -53,7 +53,7 @@ if(isNaN(num)){
   document.getElementById("numberr").innerHTML="**only Number allowed in box**"
   return false
 }
-if(num.length<=10){
+if(num.length<10){
   document.getElementById("numberr").innerHTML="**minimum 10 digit mobile number**"
   return false
   
@@ -63,3 +63,9 @@ if(num.length>10){
   return false
 }
 }
+for(let i=1; i<=5; i++){
+  
+}
+//function showmodal(){
+ // document.querySelector("form").classList.add("show")
+//}

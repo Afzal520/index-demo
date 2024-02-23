@@ -6,16 +6,22 @@ body{
     width: 100%;
     
 }
+.show{
+    top: 50%;
+}
 form{
+    
+    transition: 0s;
     border: 1px solid black;
     width: 700px;
-    height: 300px;
+    height: 400px;
+
+
+
+
     background-color:rgba(000, 123, 001, 0.3) ;
 }
-table{
-    width: 500px;
-    
-}
+
 td input{
     width: 100%;
     text-align: center;
@@ -30,14 +36,20 @@ span{
     color: red;
 
 }
+table{
+    width: 400px;
+}
  button{
     margin-top: 20px;
+    position: absolute;
+    left: 475px;
+    top: 280px;
     width: 100px;
     height: 30px;
     border-radius: 0px 20px;
     color: black;
     font-size: 15px;
-    position: absolute;
+    
     
 
 
